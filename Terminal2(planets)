@@ -1,0 +1,89 @@
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ mkdir -p planets/real planets/fictional planets/inhabited
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ mkdir terrestrial gas-giants dwarf-planets
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ mv earth.jpeg mars.jpeg venus.jpeg mercury.jpeg planets/real/terrestrial
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ mv pluto.jpeg planets/real/dwarf-planets
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ mv saturn.jpeg neptune.jpeg uranus.jpeg jupiter.jpeg planets/real/gas-giants
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ mv coruscant.jpeg arrakis.jpeg cybertron.jpeg planets/fictional
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ cp planets/real/terrestrial/earth.jpeg planets/inhabited
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ cp planets/fictional/coruscant.jpeg planets/fictional/arrakis.jpeg planets/fictional/cybertron.jpeg planets/inhabited
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ rm -r planets/real/dwarf-planets/
+
+User@LAPTOP-LK75F2JL MINGW64 ~/quests/shell
+$ find
+.
+./planets
+./planets/fictional
+./planets/fictional/arrakis.jpeg
+./planets/fictional/coruscant.jpeg
+./planets/fictional/cybertron.jpeg
+./planets/inhabited
+./planets/inhabited/arrakis.jpeg
+./planets/inhabited/coruscant.jpeg
+./planets/inhabited/cybertron.jpeg
+./planets/inhabited/earth.jpeg
+./planets/real
+./planets/real/gas-giants
+./planets/real/gas-giants/jupiter.jpeg
+./planets/real/gas-giants/neptune.jpeg
+./planets/real/gas-giants/saturn.jpeg
+./planets/real/gas-giants/uranus.jpeg
+./planets/real/terrestrial
+./planets/real/terrestrial/earth.jpeg
+./planets/real/terrestrial/mars.jpeg
+./planets/real/terrestrial/mercury.jpeg
+./planets/real/terrestrial/venus.jpeg
+./planets.zip
+
+
+58  curl -L -o planets.zip https://github.com/WildCOdeSchool/quests-ressources/blob/master/terminal/planets.zip?raw=true
+   59  unzip planets.zip
+   60  ~/quests/shell
+   61  ls
+   62  unzip planets.zip
+   63  unzip planets.zip
+   64  mkdir -p quests/shell/planets/real quests/shell/planets/fictional quests/shell/planets/inhabited
+   65  mkdir uests/shell/planets
+   66  mkdir quests/shell/planets
+   67  mkdir planets
+   68  mkdir -p planets/real planets/fictional planets/inhabited
+   69  mkdir terrestrial gas-giants dwarf-planets
+   70  find
+   71  mv mercure venus terre mars jupiter saturne uranus neptune
+   72  mkdir planets/real/terrestrial planets/real/gas-giants planets/real/dwarf-planets
+   73  mv terre mercure venus mars plantes/real/terrestrial
+   74  mv terre mercure venus mars planets/real/terrestrial
+   75  pwd
+   76  mv terre planets/real/terrestrial
+   77  ls
+   78  mv earth.jpeg mars.jpeg venus.jpeg mercury.jpeg planets/real/terrestrial
+   79  mv pluto.jpeg planets/real/dwarf-planets
+   80  mv saturn.jpeg neptune.jpeg uranus.jpeg planets/real/gas-giants
+   81  cp planets/real/terrestrial/earth.lpeg planets/inhabited
+   82  cp planets/real/terrestrial/earth.jpeg planets/inhabited
+   83  cp planets/fictional/coruscant.jpeg planets/fictional/arrakis.jpeg planets/inhabited
+   84  mv coruscant.jpeg arakis.jpeg cybertron.jpeg planets/fictional
+   85  mv arrakis.jpeg planets/fictional
+   86  cp planets/fictional/coruscant.jpeg planets/fictional/arrakis.jpeg planets/fictional/cybertron.jpeg planets/inhabited
+   87  rm -r dwarf-planets/
+   88  mv jupiter.jpeg planets/real/gas-giants
+   89  rm -r planets/real/dwarf-planets/
+   90  find
+   91  find
+   92  history

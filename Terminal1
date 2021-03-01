@@ -1,0 +1,48 @@
+User@LAPTOP-LK75F2JL MINGW64 ~
+$ pwd
+/c/Users/User
+
+User@LAPTOP-LK75F2JL MINGW64 ~
+$ cd ..
+
+User@LAPTOP-LK75F2JL MINGW64 /c/Users
+$ pwd
+/c/Users
+
+User@LAPTOP-LK75F2JL MINGW64 /c/Users
+$ cd ..
+
+User@LAPTOP-LK75F2JL MINGW64 /c
+$ pwd
+/c
+
+User@LAPTOP-LK75F2JL MINGW64 /c
+$ ls
+'$Recycle.Bin'/  'Documents and Settings'@   OneDriveTemp/    'Program Files (x86)'/  'System Volume Information'/
+'$WINDOWS.~BT'/   hiberfil.sys               pagefile.sys      ProgramData/            Users/
+'$WinREAgent'/    Intel/                     PerfLogs/         Recovery/               Windows/
+ Config.Msi/      OEM/                      'Program Files'/   swapfile.sys
+
+User@LAPTOP-LK75F2JL MINGW64 /c/users
+$ cd user/
+
+User@LAPTOP-LK75F2JL MINGW64 /c/users/user
+$ pwd
+/c/users/user
+
+User@LAPTOP-LK75F2JL MINGW64 ~
+$ cd ..
+
+User@LAPTOP-LK75F2JL MINGW64 /c/Users
+$ cd ~
+
+User@LAPTOP-LK75F2JL MINGW64 ~
+$ pwd
+/c/Users/User
+                                        
+User@LAPTOP-LK75F2JL MINGW64 ~
+$ cd ~/documents/
+
+User@LAPTOP-LK75F2JL MINGW64 ~/documents
+$ pwd
+/c/Users/User/documents
